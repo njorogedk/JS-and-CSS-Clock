@@ -1,5 +1,5 @@
 # JS-and-CSS-Clock
-##JS and CSS Clock #javaScript30
+## JS and CSS Clock #javaScript30
 
 Analogue Clock using CSS and JavaScript
 
