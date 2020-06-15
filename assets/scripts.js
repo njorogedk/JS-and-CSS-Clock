@@ -4,15 +4,12 @@ const secondHand = document.querySelector('.sec-hand');
 const date = document.querySelector('.date');
 const clock = document.querySelector('.clock');
 
-
 function setDate() {
     const today = new Date();
 
     const second = today.getSeconds();
     const secondDegrees = ((second / 60) * 360) + 360;
     secondHand.style.transform = `rotate(${secondDegrees}deg)`;
-
-
 
     const minute = today.getMinutes();
     const minuteDegrees = ((minute / 60) * 360);
@@ -28,8 +25,8 @@ function setDate() {
 
     date.innerHTML = '<span>' + '<strong>' + day + ' ' + currentDate + '</strong>' + '</span>';
 
-}
+        }
 
-setInterval(setDate, 1000);
+        setInterval(setDate, 1000);
 
-setDate();
+        setDate();
